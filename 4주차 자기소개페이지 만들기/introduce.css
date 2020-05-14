@@ -1,0 +1,250 @@
+* {
+  padding: 0;
+  margin: 0;
+
+
+}
+html, body {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: black;
+
+}
+.menu_pg {
+
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+  background:rgba(0, 0, 0, 0.5);
+  transform: scale(0);
+  transition-duration:1s;
+  transition-timing-function: ease;
+
+}
+.menu_icon {
+
+  position: absolute;
+  transform: translate( -50%, -50% );
+  top: 50%;
+	left: 50%;
+  display: flex;
+  justify-content: center;
+
+}
+#fontawesome {
+  position: relative;
+  margin-bottom: 25px;
+
+}
+#fontawesome i {
+  color: white;
+  font-size: 50px;
+  position: absolute;
+  transform: translate( -50%, -50% );
+  top: 50%;
+	left: 50%;
+  cursor: pointer;
+
+}
+
+.menu_icon > div {
+  margin: 0 50px;
+
+  display: flex;
+  flex-direction: column;
+}
+.menu_icon > div > a {
+  color: white;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+#fontawesome i:hover {
+  color: gray;
+}
+
+
+#close_btn {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  transform: translate( -50%, -50% );
+  top: 60%;
+	left: 49%;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+#close_btn a {
+  font-size: 30px;
+  text-decoration: none;
+  color: black;
+}
+#close_btn a:hover {
+  color: gray;
+  opacity: 0.5;
+}
+.flex_box {
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+
+}
+
+.header {
+  background-color: black;
+
+  height: 50px;
+  position: relative;
+  display: flex;
+}
+.menu_btn {
+  position: absolute;
+  color: white;
+  top: 13%;
+  left: 2%;
+  cursor: pointer;
+  flex: 1;
+}
+.menu_btn :hover {
+  opacity: 0.5;
+}
+.title {
+
+  position: absolute;
+  transform: translate( -50%, -50% );
+  top: 50%;
+	left: 50%;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+  flex: 2;
+}
+
+.bg_photo {
+
+  background-color: black;
+  text-align: center;
+  position: relative;
+}
+.ment {
+  width: 600px;
+  position: absolute;
+  transform: translate( -50%, -50% );
+  top: 30%;
+	left: 50%;
+  font-size: 100px;
+  color: white;
+}
+.buttonBox {
+
+  width: 300px;
+
+  position: absolute;
+  transform: translate( -50%, -50% );
+  top: 80%;
+	left: 50%;
+  display: block;
+  background-color: black;
+  color: white;
+  opacity: 0.5;
+  padding-bottom: 15px;
+  padding-top: 10px;
+}
+.content {
+  height: 600px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+
+
+}
+.cnt_img {
+  flex-grow: 1;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  max-width: 300px;
+  display: flex;
+}
+.radious {
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top:25%;
+
+  overflow: hidden;
+  flex-grow: 1;
+
+}
+
+.right_cnt {
+  flex-grow: 1;
+  max-width: 300px;
+  position: relative;
+}
+.right_cnt p {
+ position: absolute;
+ transform: translate( -50%, -50% );
+ top: 50%;
+ left: 50%;
+}
+
+.left_cnt {
+  flex-grow: 1;
+  max-width: 300px;
+  position: relative;
+
+}
+.left_cnt p {
+ position: absolute;
+ transform: translate( -50%, -50% );
+ top: 50%;
+ left: 50%;
+}
+
+.footer {
+  border: 2px solid white;
+  background-color: tomato;
+  height: 300px;
+  position: relative;
+  background-color: black;
+
+  margin: 150px 100px;
+}
+.footer header {
+  position: absolute;
+  transform: translate( -50%, -50% );
+  top: 30%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+}
+.footer p {
+  position: absolute;
+  transform: translate( -50%, -50% );
+  top: 55%;
+  left: 50%;
+  color: white;
+}
+.icon a{
+  margin-left: 10px;
+  color: white;
+}
+.icon {
+
+  display: flex;
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -50%);
+  justify-content: center;
+}
